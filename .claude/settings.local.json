@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -oE \"\\(AUC|Recall|F1|Precision|Accuracy|Brier\\)[^,\\\\n]*[0-9]\\\\.[0-9]{3}\" \"/Users/sbk9834/Desktop/Projects/Churn Project/ChurnModel_Enhanced_v3_2 \\(1\\).ipynb\")",
+      "Bash(python3:*)"
+    ]
+  }
+}
