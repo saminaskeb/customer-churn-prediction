@@ -95,7 +95,6 @@ The final model is an **XGBoost classifier** (Optuna-tuned) wrapped in a SMOTE-E
 
 ## 5. Exploratory Data Analysis
 
-[TO BE UPDATED — visualization screenshots to be added to `images/`]
 
 **Visualizations produced in the notebook:**
 
@@ -205,7 +204,7 @@ A stacking ensemble (LR + XGBoost + LightGBM with a meta-Logistic Regression) wa
 | **XGBoost + Optuna + SMOTE-ENN + Calibration** | **0.839** | **0.896** | **Final model** |
 | Stacking Ensemble | ~0.850 | Lower | Rejected — recall drop |
 
-**Visualizations:** [TO BE UPDATED — add ROC curve, Precision-Recall curve, Confusion Matrix, Calibration plot to `images/`]
+**Visualizations:** 
 
 ---
 
@@ -217,7 +216,6 @@ SHAP values were computed for the final calibrated XGBoost model to explain both
 
 **Top global predictors (SHAP bar chart):**
 
-[TO BE UPDATED — add SHAP bar chart to `images/`]
 
 From the SHAP beeswarm plot, the strongest drivers of churn prediction are:
 1. **`tenure`** — Short tenure strongly pushes predictions toward churn; long-tenured customers are reliably retained
